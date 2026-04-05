@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cravings Compass - Track and manage your food cravings with insights and personalized recommendations">
+    <meta name="keywords" content="cravings, food tracking, nutrition, health, diet">
+    <meta name="author" content="Cravings Compass Team">
+    
+    <title>Cravings Compass</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+    <div id="root">
+        <!-- Loading indicator -->
+        <div class="loading-container">
+            <div class="loading-spinner"></div>
+            <p>Loading Cravings Compass...</p>
+        </div>
+    </div>
+    
+    <!-- Main application script -->
+    <script type="module" src="/src/main.js"></script>
+    
+    <!-- Fallback for users without JavaScript -->
+    <noscript>
+        <div style="text-align: center; padding: 2rem; font-family: Arial, sans-serif;">
+            <h1>Cravings Compass</h1>
+            <p>This application requires JavaScript to run. Please enable JavaScript in your browser settings.</p>
+        </div>
+    </noscript>
+</body>
+</html>
